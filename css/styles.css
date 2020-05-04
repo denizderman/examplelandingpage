@@ -1,0 +1,209 @@
+body {
+    font-family: 'Helvetica'; 
+    text-align: center; 
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+     font-family: "Titillium Web";
+ }
+ h2 {
+     font-size: 3rem;
+     line-height: 1.5;
+ }
+ p {
+     color: #8f8f8f;
+ }
+ span { 
+     color: #FF686B;
+     font-size: 3rem;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+     width: 50%;
+ }
+ .container-fluid {
+     padding: 3% 15% 3%;
+ }
+ 
+ /* Sections */
+ 
+ .colored-section {
+     background-color: #FF686B;
+     color: #fff;
+ }
+ .white-section {
+     background-color: #fff;
+ }
+ 
+ /* Headings */
+ 
+ .big-heading {
+     font-size: 3.5rem;
+     line-height: 1.5;
+     font-weight: bolder;
+ }
+     
+ .section-heading {
+     font-size: 3rem;
+     line-height: 1.5;  
+ }
+ 
+ #title {
+     text-align: left;
+ }
+ 
+ 
+ /* Navigation Bar */
+ 
+ .navbar {
+     padding: 0 0 4.5rem;
+ }
+ .navbar-brand {
+     font-family: "Titillium Web";
+     font-size: 2.5rem;
+     line-height: 1.5;
+ }
+ .nav-item {
+     padding: 0 18px;
+ }
+ 
+ .nav-link {
+     font-size: 1.2rem;
+     font-family: "Montserrat";
+ }
+ 
+ /* Download buttons */
+ 
+ .download-button {
+     margin: 5% 3% 5% 0;
+     font-weight: 800;
+ }
+ .button-apple {
+     color: #84DCC6;
+ }
+ .button-apple:hover {
+     background-color: #84DCC6;
+     color: black;
+ }
+ .button-google:hover, .fa-apple:hover {
+     background-color: #84DCC6;
+ }
+ 
+ /*Title Image*/
+ 
+ .title-image {
+     width: 50%;
+     transform: rotate(25deg);
+     position: absolute;
+     right: 130px;
+ }
+ 
+ /* Feature */
+ 
+ #features {
+     padding: 7% 10%;
+     position: relative;
+ }
+ 
+ .feature-box {
+     text-align: center;
+     padding: 2%;
+ }
+ 
+ .feature-title {
+     font-size: 2rem;
+ }
+ .fas:hover {
+     color:  #84DCC6;
+ }
+ 
+ /* Testimonial section */
+ 
+ #testimonials {
+     background-color: #84DCC6;
+ }
+ 
+ .testimonial-text {
+     font-size: 3rem;
+     line-height: 1.5;
+ }
+ .testimg {
+     width: 10%;
+     border-radius: 200%;
+     margin: 20px;
+ }
+ 
+ /* press */
+ 
+ #press {
+     background-color: #fff;
+     text-align: center;
+     padding-bottom: 3%;
+ }
+ .press-img {
+     width: 17%;
+     margin: 20px 20px 50px;
+ }
+ .carousel-item {
+     padding: 7% 15%;
+ }
+ 
+ /* Pricing */
+ .pricing-section {
+     background-color: #FAF2E5;
+ }
+ .price-text {
+     font-size: 3rem;
+     line-height: 1.5    ;
+ }
+ #pricing {
+     padding: 100px;
+    
+ }
+ .pricing-column {
+     padding: 3% 2%;
+ }
+ .card-deck {
+     padding-top: 20px;
+ }
+ .button-signup {
+     background-color: #84DCC6;
+     color: black;
+     font-weight: 700;
+ }
+ .button-signup:hover {
+     background-color: #343A40;
+ }
+ @media (max-width: 1028px) {
+     #title {
+         text-align: center;
+     }
+     .title-image {
+         position: static;
+         transform: rotate(0);
+     }
+ }
+ 
+ /* call to action */
+ 
+ #cta {
+     padding: 100px;
+ }
+ .prefoot {
+     font-family: "Montserrat";
+     font-weight: bolder;
+     font-size: 2rem;
+     color: white;
+ }
+ 
+ /* footer*/
+ 
+ #footer {
+     padding: 40px;
+ }
+ .footer-icons, i {
+     padding: 10px;
+ }
+ .fab:hover {
+     color: #84DCC6;
+ }
